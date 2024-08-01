@@ -5,3 +5,5 @@ Kafka는 네트워크를 통해 데이터를 전송하기 때문에, 객체를 b
 
 KafkaTemplate는 Spring Kafka에서 제공하는 Kafka Producer를 Wrapping 한 클래스입니다. KafkaTemplate는 Kafka에 메시지를 보내는 여러 메서드를 제공하며, 
 이 메서드를 사용하여 브로커로 메시지를 보내기 위해 직접 Kafka Producer API를 사용하는 대신, send와 같은 메서드를 통해 더 편리하고 간결한 코드로 메시지를 보낼 수 있습니다.
+
+Consumer Application Project를 실행하고, Produce Application Project에서 생성한 테스트 메서드를 실행했습니다.
